@@ -8,7 +8,7 @@ leader['Aris Carter'] = '(510) 229-6359'
 leader['Gabriel Reader'] = '(510) 326-5834'
 
 # 2. create/open pod_nbrs/pkl file
-pod_file = open('pod_nbrs.prl', 'wb')
+pod_file = open('pod_nbrs.pkl', 'wb')
 
 # 3. Wire POD Leader number to a file
 pickle.dump(leader,pod_file)
@@ -26,7 +26,7 @@ pickle.dump(member, pod_file)
 pod_file.close()
 
 # 7. Open pod.file
-pod_file = open('pod_nbrs.pkl', 'rb')
+pod_file = open('pod_nbrs.pkl', 'wb')
 
 # 8. Leader numbers
 print('Leaders: ')
