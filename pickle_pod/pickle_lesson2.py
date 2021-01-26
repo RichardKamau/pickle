@@ -63,7 +63,7 @@ pickle.dump(gabriel_members,pod_file)
 
 #8 Open the pod_file to read data
 pod_file = open('all_pods.pkl', 'rb')
-
+print(all_pod_members)
 #9 Print all the Pod leaders and POD membership
 for key,value in all_pod_members.items():
   print('This POD Leader is',key)

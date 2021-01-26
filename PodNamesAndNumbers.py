@@ -6,6 +6,7 @@ leader['Jacore Baptiste'] = '(845) 200-6250'
 leader['Andrew Lubega'] = '(925) 727-4611'
 leader['Aris Carter'] = '(510) 229-6359'
 leader['Gabriel Reader'] = '(510) 326-5834'
+leader['Richard Kamau'] = '(510) 228-5623'
 
 # 2. create/open pod_nbrs/pkl file
 pod_file = open('pod_nbrs.pkl', 'wb')
